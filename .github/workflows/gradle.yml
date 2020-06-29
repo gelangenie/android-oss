@@ -27,4 +27,4 @@ jobs:
     - name: Build with Gradle dependencies
       run: ./gradlew dependencies
     - name: Build with Gradle 
-      run: ./gradlew assembleExternalRelease
+      run: ./gradlew assembleExternalRelease --stacktrace
